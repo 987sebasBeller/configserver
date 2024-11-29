@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demo
+server:
+  port: 8081
+springdoc:
+  swagger-ui.path: /openapi/swagger-ui.html
+  api-docs.path: /openapi/v3/api-docs
+  packagesToScan: com.example.examen
+  pathsToMatch: /**
